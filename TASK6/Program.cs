@@ -15,7 +15,7 @@ MuliplyElArray(ourArray);
 int[] FillArray(int size, int minValue, int maxValue)
 {
     int[] arr = new int[size];
-    Console.WriteLine("старый массив");
+    Console.WriteLine("Cтарый массив");
     for (int i = 0; i < size; i++)
     {
         arr[i] = new Random().Next(minValue, maxValue + 1);
@@ -42,7 +42,8 @@ void MuliplyElArray(int[] arr)
     }
     int[] newArray = new int[count];
 
-    Console.WriteLine($"\nnew array length {count}");
+   // Console.WriteLine($"\nдлина нового массива {count}");
+      Console.WriteLine("\nНовый массив");
 
     for (int i = 0; i < count; i++)
     {
