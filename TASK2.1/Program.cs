@@ -18,7 +18,7 @@ int[] FillArray(int size, int minValue, int maxValue)
 
 void SwitchArray(int[] arr)
 {
-    Console.WriteLine("\n Новый массив");
+    Console.WriteLine("\nНовый массив");
     int i = 0;
 
     foreach (int el in arr)
